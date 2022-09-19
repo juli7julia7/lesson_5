@@ -1,0 +1,100 @@
+@font-face {
+   font-family: "Larsseit";
+   src: url(../fonts/Larsseit-Regular.woff2) format(woff2),
+   url(../fonts/Larsseit-Regular.woff) format(woff);
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Larsseit";
+   src: url(../fonts/Larsseit-Medium.woff2) format(woff2),
+   url(../fonts/Larsseit-Medium.woff) format(woff);
+      font-display: swap;
+      font-weight: 500;
+      font-style: normal;
+}
+
+@font-face {
+   font-family: "Larsseit";
+   src: url(../fonts/Larsseit-Bold.woff2) format(woff2),
+   url(../fonts/Larsseit-Bold.woff) format(woff);
+      font-display: swap;
+      font-weight: 700;
+      font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Bona+Nova:regular,700&display=swap");
+
+
+.main__title{
+   font-family: "Larsseit";
+   font-weight: 900;
+   font-size: 30px;
+   line-height: 1;
+}
+
+.pre__container {
+   background-color: beige;
+   padding: 20px 50px 30px 35px;
+}
+
+.container__history{
+   background-color: blanchedalmond;
+   padding: 20px;
+}
+.container__society {
+   background-color: rgb(156, 111, 52);
+   padding: 20px 30px 50px;
+   margin-bottom: 50px;
+}
+
+.container__sport {
+   background-color: coral;
+   padding: 10px 50px;
+}
+ 
+
+.text {
+   color: purple;
+   font-family: "Larsseit";
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 2.4;
+   }
+
+   .history__text {
+      width: 900px;
+   }
+
+
+ .history__title, .society__title, .sport__title{
+   font-family: "Larsseit";
+   font-weight: 500;
+   color: blue;
+   text-align: center;
+   text-transform: uppercase;
+ }
+
+
+.nav{
+   color: aqua;
+}
+
+.text-society, .text-history{
+   color: aquamarine;
+}
+
+.span{
+   font-family: "Bona Nova";
+   font-weight: 700;
+   color: rgb(160, 160, 19);
+   font-size: 14px;
+   line-height: 2.4;
+}
+
+.span-history{
+   text-decoration: line-through;
+}
+
